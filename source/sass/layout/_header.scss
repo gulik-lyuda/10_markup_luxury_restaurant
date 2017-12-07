@@ -1,0 +1,72 @@
+.main_menu {
+	padding: 24px 0;
+
+	.menu {
+		margin-top: 13px;
+
+		.menu__item {
+			font-weight: bold;
+			font-size: 14px;
+			text-transform: uppercase; 
+
+			a {
+				color: $blue_font_color;
+
+				&:hover {
+					color: $orange_bg_color;
+				}
+			}
+		}
+	} // end of .menu
+
+	.book {
+		width: 200px;
+		display: block;
+		background-color: $orange_bg_color;
+		border-radius: 3px;
+		border: 0;
+		padding: 13px 0;
+
+		cursor: pointer;
+
+		color: $white-color;
+		font-weight: bold;
+		text-transform: uppercase;
+
+		.book__icon {
+			width: 24px;
+			height: 19px;
+			display: block;
+			margin-right: 13px;
+
+			background: url('../images/icons/book_icon.png');
+		} // end of .book__iten
+	} // end of .book	
+} // end of .main_menu
+
+.offer {
+	background: url('../images/backgrounds/header_bg.png') no-repeat center top;
+	background-size: cover;
+
+	.title {
+		padding: 220px 0;
+		color: $white-color;
+
+		.title__heading {
+			font-size: 56px;
+			margin-bottom: 0;
+		}
+
+		.title__description {
+			font: bold 40px/40px 'Playfair Display', serif;
+			
+			span {
+				color: $orange_bg_color;
+			}
+		}
+	} // end of .title
+
+	img {
+		margin-top: 120px;
+	}
+} //end of .offer
