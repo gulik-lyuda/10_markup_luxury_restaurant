@@ -22,6 +22,8 @@
 	.book {
 		width: 200px;
 		display: block;
+		margin-left: 50px;
+
 		background-color: $orange_bg_color;
 		border-radius: 3px;
 		border: 0;
@@ -49,7 +51,7 @@
 	background-size: cover;
 
 	.title {
-		padding: 220px 0;
+		padding: 200px 0;
 		color: $white-color;
 
 		.title__heading {

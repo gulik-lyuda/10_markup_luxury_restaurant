@@ -1,0 +1,88 @@
+.contacts {
+	background-color: $grey_bg_color;
+	border-bottom: 1px solid $grey_border_color;
+
+	font-weight: bold;
+	text-transform: uppercase;
+	color: $dark_font_color;
+
+	.link_section {
+		padding: 30px 0;
+	}
+
+	.reviews {
+		border-right: 1px solid $grey_border_color;
+		border-height: 200%;
+		//line-height: 45px;
+
+		.reviews__appeal {
+			padding-left: 66px;
+			padding-right: 16px;
+			background: url('../images/icons/reviews_icon.png') no-repeat left center;
+			font-size: 14px;
+
+			span {
+				display: block; // because 'span' isn't block element and we can't set margin for it 
+				margin-top: -4px;
+
+				color: $orange_bg_color;
+				font-size: 16px;
+			}
+		} // end of .reviews__appeal
+
+		.reviews__btn {
+			width: 45px;
+			height: 45px;
+			margin-right: 50px;
+			background-color: $orange_bg_color;
+			border-radius: 50%;
+			border: 0;
+
+			i {
+				color: $dark_font_color;
+			}
+
+			&:hover {
+				i {
+				color: $white_color;
+				}
+			}
+		} // end of .reviews__btn
+
+	} // end of .reviews
+
+	.phone {
+
+		.phone__appeal {
+			padding-left: 56px;
+			padding-right: 21px;
+			background: url('../images/icons/phone_icon.png') no-repeat left center;
+			font-size: 14px;
+
+			border-right: 1px solid $grey_border_color;
+
+			span {
+				display: block; // because 'span' isn't block element and we can't set margin for it 
+				margin-top: -4px;
+
+				color: $orange_bg_color;
+				font-size: 16px;
+			}
+		} // end of .phone__appeal
+
+		.phone__number {
+			padding-left: 21px;
+
+			font: bold 32px/32px 'Playfair Display', serif;
+		}
+	} // end of .phone
+
+} // end of .contacts
+
+.about {
+
+} // end of .about
+
+.today_special {
+
+} // end of .today_special
