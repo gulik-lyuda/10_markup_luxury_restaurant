@@ -5812,6 +5812,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-weight: bold; }
 
+.btn {
+  background-color: #fea100;
+  border-radius: 3px;
+  border: 0;
+  padding: 13px 0;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 .main_menu {
   padding: 24px 0; }
   .main_menu .menu {
@@ -5827,15 +5837,7 @@ h1, h2, h3, h4, h5, h6 {
   .main_menu .book {
     width: 200px;
     display: block;
-    margin-left: 50px;
-    background-color: #fea100;
-    border-radius: 3px;
-    border: 0;
-    padding: 13px 0;
-    cursor: pointer;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase; }
+    margin-left: 50px; }
     .main_menu .book .book__icon {
       width: 24px;
       height: 19px;
@@ -5905,3 +5907,25 @@ h1, h2, h3, h4, h5, h6 {
   .contacts .phone .phone__number {
     padding-left: 21px;
     font: bold 32px/32px 'Playfair Display', serif; }
+
+.about {
+  padding: 65px 0 40px; }
+  .about .history {
+    padding-top: 55px; }
+    .about .history .history__title {
+      margin-bottom: 30px;
+      font-size: 35px;
+      text-transform: capitalize;
+      color: #14141d; }
+    .about .history .history__text {
+      line-height: 28px;
+      color: #5c6369; }
+    .about .history .awards .read {
+      width: 150px;
+      margin-right: 50px; }
+      .about .history .awards .read:hover {
+        color: #fff; }
+  .about .food-images .food-images__item {
+    margin-bottom: 15px; }
+  .about .food-images-down {
+    margin-top: 50px; }

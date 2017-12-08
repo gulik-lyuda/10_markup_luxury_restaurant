@@ -13,3 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 }
+
+.btn {
+	background-color: $orange_bg_color;
+	border-radius: 3px;
+	border: 0;
+	padding: 13px 0;
+
+	cursor: pointer;
+
+	color: $white-color;
+	font-weight: bold;
+	text-transform: uppercase;
+}

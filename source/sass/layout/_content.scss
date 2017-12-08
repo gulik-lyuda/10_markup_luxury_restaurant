@@ -80,7 +80,45 @@
 } // end of .contacts
 
 .about {
+	padding: 65px 0 40px;
 
+	.history {
+		padding-top: 55px;
+
+		.history__title {
+			margin-bottom: 30px;
+
+			font-size: 35px;
+			text-transform: capitalize;
+			color: $dark_font_color;
+		}
+
+		.history__text {
+			line-height: 28px;
+			color: $grey_font_color;
+		}
+
+		.awards {
+			.read {
+				width: 150px;
+				margin-right: 50px;
+
+				&:hover {
+					color: $white-color;
+				}
+			}
+		} // end of .awards
+	} // end of .history
+
+	.food-images {
+		.food-images__item {
+			margin-bottom: 15px;
+		}
+	} // end of .food_images
+
+	.food-images-down {
+		margin-top: 50px;
+	}
 } // end of .about
 
 .today_special {
