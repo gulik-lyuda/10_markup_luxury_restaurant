@@ -14,6 +14,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+h2 {
+	font-size: 35px;
+	text-transform: capitalize;
+}
+
 .btn {
 	background-color: $orange_bg_color;
 	border-radius: 3px;

@@ -88,8 +88,6 @@
 		.history__title {
 			margin-bottom: 30px;
 
-			font-size: 35px;
-			text-transform: capitalize;
 			color: $dark_font_color;
 		}
 
@@ -122,5 +120,91 @@
 } // end of .about
 
 .today_special {
+	padding-top: 95px;
 
+	background: url('../images/backgrounds/today_bg.png') no-repeat center top;
+
+	.today_special__title {
+		margin-bottom: 30px;
+
+		color: $white_color;
+		text-align: center;
+	}
+
+	.dish {
+		margin-bottom: 130px;
+		z-index: 100;
+
+		text-align: center;
+		background: $white-color;
+		box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+
+		.dish__img {
+			width: 100%;
+			margin-bottom: 30px;
+		}
+
+		.dish__title {
+			margin-bottom: 20px;
+			font-size: 26px;
+			color: $dark_font_color;
+		}
+
+		.dish__description {
+			padding: 0 54px;
+			margin-bottom: 65px;
+
+			color: $grey_font_color;
+		}
+
+		.dish__details {
+			margin: 0 40px;
+			padding: 20px 0;
+			border-top: 1px solid #e1e1e1;
+
+			text-transform: uppercase;
+
+			.dish__delivery {
+				padding-right: 20px;
+				border-right: 1px solid #e1e1e1;
+
+				font-weight: bold;
+				font-size: 13px;				
+				color: $dark_font_color;
+				text-align: left;
+
+				span {
+					color: $pink_font_color;
+				}
+			} // end of .food__delivery
+
+			.dish__phone {
+				padding: 0 20px;
+
+				font-family: 'Playfair Display', serif;
+				font-weight: bold;
+				font-size: 26px;
+				color: $dark_font_color;
+			} // end of .food__phone
+
+			.dish__price {
+				font-family: 'Playfair Display', serif;
+				font-weight: bold;
+				font-size: 26px;
+				color: $orange_bg_color;
+			} //.end of .dish__price
+		} // end of .dish__details
+	} // end of .dish
+
+	.dish__backdrop {
+		position: relative;
+		z-index: -1; 
+
+		height: 311px;
+		width: 311px;		 
+		margin-top: -295px;
+		margin-left: 350px;
+			
+		background: url('../images/content/today_backdrop.png') no-repeat right bottom;
+	} // end of .dish__backdrop
 } // end of .today_special

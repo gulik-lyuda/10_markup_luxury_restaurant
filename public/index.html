@@ -42,7 +42,7 @@
                         </nav>    
 
                         <div class="col-lg-3">
-                            <button class="book btn d-flex justify-content-center">
+                            <button class="book btn d-flex justify-content-center"> <!-- Action, so it's a button -->
                                 <span class="book__icon"></span>
                                 Book your table
                             </button>
@@ -102,7 +102,7 @@
                                     remaining essentially unchanged... 
                                 </p>
                                 <div class="awards">
-                                    <a href="#" class="read btn">read more</a>
+                                    <a href="#" class="read btn">read more</a> <!-- Link because it leads to another information, not an action -->
                                     <img src="images/icons/award_logo.png" alt="Restaurant's Awards">
                                 </div>
                             </div>
@@ -125,7 +125,58 @@
 
             <section class="today_special">
                 <div class="container">
-                    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="today_special__title">Today Special</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="dish">
+                                <img src="images/content/dish_item1.png" alt="Pizza" class="dish__img img_fluent">
+                                <h3 class="dish__title">Pizza Valentino</h3>
+                                <p class="dish__description">
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown printer took 
+                                    a galley of type and scrambled.
+                                </p>
+                                <div class="dish__details d-flex">
+                                    <div class="dish__delivery">
+                                        home<br/><span>delivery</span>
+                                    </div>
+                                    <div class="dish__phone">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dish__price ml-auto">
+                                        <sup><small>$</small></sup>89.00
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="dish">
+                                <img src="images/content/dish_item2.png" alt="Ribs" class="dish__img img_fluent">
+                                <h3 class="dish__title">Chief's Ribs</h3>
+                                <p class="dish__description">
+                                    printing and typesetting industry. Lorem Ipsum has been the industry's 
+                                    standard dummy text ever since the 1500s, when an unknown printer took 
+                                    a galley of type and scrambled.
+                                </p>
+                                <div class="dish__details d-flex">
+                                    <div class="dish__delivery">
+                                        home<br/><span>delivery</span>
+                                    </div>
+                                    <div class="dish__phone">
+                                        1-008 005 006
+                                    </div>
+                                    <div class="dish__price ml-auto">
+                                        <sup><small>$</small></sup>99.00
+                                    </div>                                    
+                                </div>
+                            </div>
+                            <div class="dish__backdrop"></div>
+                        </div>
+                    </div> <!-- end of .row -->
                 </div>
             </section> <!-- end of .today_special -->
         </main>

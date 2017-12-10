@@ -5812,6 +5812,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
   font-weight: bold; }
 
+h2 {
+  font-size: 35px;
+  text-transform: capitalize; }
+
 .btn {
   background-color: #fea100;
   border-radius: 3px;
@@ -5914,8 +5918,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 55px; }
     .about .history .history__title {
       margin-bottom: 30px;
-      font-size: 35px;
-      text-transform: capitalize;
       color: #14141d; }
     .about .history .history__text {
       line-height: 28px;
@@ -5929,3 +5931,62 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px; }
   .about .food-images-down {
     margin-top: 50px; }
+
+.today_special {
+  padding-top: 95px;
+  background: url("../images/backgrounds/today_bg.png") no-repeat center top; }
+  .today_special .today_special__title {
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: center; }
+  .today_special .dish {
+    margin-bottom: 130px;
+    z-index: 100;
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: 0 20px 90px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 20px 90px rgba(0, 0, 0, 0.15); }
+    .today_special .dish .dish__img {
+      width: 100%;
+      margin-bottom: 30px; }
+    .today_special .dish .dish__title {
+      margin-bottom: 20px;
+      font-size: 26px;
+      color: #14141d; }
+    .today_special .dish .dish__description {
+      padding: 0 54px;
+      margin-bottom: 65px;
+      color: #5c6369; }
+    .today_special .dish .dish__details {
+      margin: 0 40px;
+      padding: 20px 0;
+      border-top: 1px solid #e1e1e1;
+      text-transform: uppercase; }
+      .today_special .dish .dish__details .dish__delivery {
+        padding-right: 20px;
+        border-right: 1px solid #e1e1e1;
+        font-weight: bold;
+        font-size: 13px;
+        color: #14141d;
+        text-align: left; }
+        .today_special .dish .dish__details .dish__delivery span {
+          color: #fe4c8d; }
+      .today_special .dish .dish__details .dish__phone {
+        padding: 0 20px;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #14141d; }
+      .today_special .dish .dish__details .dish__price {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #fea100; }
+  .today_special .dish__backdrop {
+    position: relative;
+    z-index: -1;
+    height: 311px;
+    width: 311px;
+    margin-top: -295px;
+    margin-left: 350px;
+    background: url("../images/content/today_backdrop.png") no-repeat right bottom; }
