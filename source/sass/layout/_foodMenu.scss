@@ -1,0 +1,122 @@
+.food_menu {
+	margin-top: -70px;
+	margin-bottom: 100px;
+
+	background: url('../images/content/menu_backdrop.png') no-repeat left 45px;
+
+	.food_menu__title {
+		margin-bottom: 40px;
+
+		color: $dark_font_color;
+		text-align: center;
+	}
+
+	.food_menu__items {
+		padding: 0 250px 20px;
+
+		border-bottom: 1px dashed #a3b0ba;
+		border-width: 100%;		
+
+		.food_menu__item {
+			text-align: center;
+
+			a {
+				font-family: 'Playfair Display', serif;
+				font-weight: bold;
+				font-size: 20px;
+				text-transform: capitalize;
+				color: $dark_font_color;
+			}
+		} // end of .food_menu__item
+
+		.food_menu__item:before {
+				display: inline-block;
+
+				content: ' ';
+				background: url('../images/icons/food_menu_iconset.png') no-repeat;
+				width: 30px;
+				height: 30px;
+				left: 50%;
+		} // end of .food_menu__item:before
+
+		.all_tag:before {
+			background-position: 0 -31px;
+		}
+
+		.breakfast_tag:before {
+			background-position: -40px -31px;
+		} 
+
+		.lunch_tag:before {
+			background-position: -80px -31px;
+		}
+
+		.snacks_tag:before {
+			background-position: -120px -31px;
+		}
+
+		.pizza_tag:before {
+			background-position: -160px -31px;
+		}
+
+		.soups_tag:before {
+			background-position: -200px -31px;
+		}
+
+		.dinner_tag:before {
+			background-position: -240px -31px;
+		}
+
+		.food_menu__item:hover:before {
+			background-position-y: 0;
+		}
+	} // end of .food_menu__items
+
+	.dishes_list {
+		padding: 15px 30px;
+		margin-bottom: 10px;
+
+		.dishes_list__item {
+			margin-left: 30px;
+			padding: 25px 40px 25px 0;
+			overflow: hidden;
+
+			border-bottom: 1px solid $grey_bg_color;
+
+			&:last-child {
+				border-bottom: none;
+			}
+
+			.dish_info {
+				float: left;
+
+				.dish_title {
+					margin-bottom: 5px;
+					font-weight: bold;
+					font-size: 16px;
+					text-transform: uppercase;
+					color: $dark_font_color;
+				} // end of .dish_info
+
+				.dish_description {
+					color: $grey_font_color;
+				}
+			}
+
+			.dish_price {
+				float: right;
+				
+				font-family: 'Playfair Display', serif;
+				font-weight: bold;
+				font-size: 26px;
+				color: $orange_bg_color;
+			} // end of .dish_price
+		} // end of .dishes_list__item
+	} // end of .dishes_list
+
+	.goto_food_menu {
+		width: 200px;
+		margin: 0 auto;
+		padding: 19px 0;
+	}
+} // end of .food_menu

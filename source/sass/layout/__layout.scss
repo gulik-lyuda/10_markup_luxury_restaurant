@@ -1,6 +1,8 @@
 @import "colors";
 @import "general";
 @import "header";
-@import "menu";
-@import "content"; //or some imports of files for separate blocks if we use BEM metodology
+@import "contacts"; // a section with a contact information below a header
+@import "about"; // a section with an additional information about the restaurant
+@import "todaySpecial"; // a section with an information about special dishes for today
+@import "foodMenu"; // a secion with an information about the restaurant's menu
 @import "footer";
