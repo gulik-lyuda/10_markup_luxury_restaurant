@@ -5940,7 +5940,7 @@ h2 {
     color: #fff;
     text-align: center; }
   .today_special .dish {
-    margin-bottom: 130px;
+    margin-bottom: 75px;
     z-index: 100;
     text-align: center;
     background: #fff;
@@ -5987,6 +5987,83 @@ h2 {
     z-index: -1;
     height: 311px;
     width: 311px;
-    margin-top: -295px;
+    margin-top: -245px;
     margin-left: 350px;
     background: url("../images/content/today_backdrop.png") no-repeat right bottom; }
+
+.food_menu {
+  margin-top: -70px;
+  margin-bottom: 100px;
+  background: url("../images/content/menu_backdrop.png") no-repeat left 45px; }
+  .food_menu .food_menu__title {
+    margin-bottom: 40px;
+    color: #14141d;
+    text-align: center; }
+  .food_menu .food_menu__items {
+    padding: 0 250px 20px;
+    border-bottom: 1px dashed #a3b0ba;
+    border-width: 100%; }
+    .food_menu .food_menu__items .food_menu__item {
+      text-align: center; }
+      .food_menu .food_menu__items .food_menu__item a {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #14141d; }
+    .food_menu .food_menu__items .food_menu__item:before {
+      display: inline-block;
+      content: ' ';
+      background: url("../images/icons/food_menu_iconset.png") no-repeat;
+      width: 30px;
+      height: 30px;
+      left: 50%; }
+    .food_menu .food_menu__items .all_tag:before {
+      background-position: 0 -31px; }
+    .food_menu .food_menu__items .breakfast_tag:before {
+      background-position: -40px -31px; }
+    .food_menu .food_menu__items .lunch_tag:before {
+      background-position: -80px -31px; }
+    .food_menu .food_menu__items .snacks_tag:before {
+      background-position: -120px -31px; }
+    .food_menu .food_menu__items .pizza_tag:before {
+      background-position: -160px -31px; }
+    .food_menu .food_menu__items .soups_tag:before {
+      background-position: -200px -31px; }
+    .food_menu .food_menu__items .dinner_tag:before {
+      background-position: -240px -31px; }
+    .food_menu .food_menu__items .food_menu__item:hover:before {
+      background-position-y: 0; }
+  .food_menu .dishes_list {
+    padding: 15px 30px;
+    margin-bottom: 10px; }
+    .food_menu .dishes_list .dishes_list__item {
+      margin-left: 30px;
+      padding: 25px 40px 25px 0;
+      overflow: hidden;
+      border-bottom: 1px solid #edf1f3; }
+      .food_menu .dishes_list .dishes_list__item:last-child {
+        border-bottom: none; }
+      .food_menu .dishes_list .dishes_list__item .dish_info {
+        float: left; }
+        .food_menu .dishes_list .dishes_list__item .dish_info .dish_title {
+          margin-bottom: 5px;
+          font-weight: bold;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: #14141d; }
+        .food_menu .dishes_list .dishes_list__item .dish_info .dish_description {
+          color: #5c6369; }
+      .food_menu .dishes_list .dishes_list__item .dish_price {
+        float: right;
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 26px;
+        color: #fea100; }
+  .food_menu .goto_food_menu {
+    width: 200px;
+    margin: 0 auto;
+    padding: 19px 0; }
+
+footer {
+  background-color: #373844; }
