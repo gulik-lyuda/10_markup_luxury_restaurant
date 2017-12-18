@@ -5901,6 +5901,17 @@ h2 {
         color: #14141d; }
       .contacts .reviews .reviews__btn:hover i {
         color: #fff; }
+      .contacts .reviews .reviews__btn:before {
+        width: 40px;
+        height: 40px;
+        display: block;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: -3px;
+        content: " ";
+        border: 1px solid #fff;
+        border-radius: 50%;
+        z-index: 10; }
   .contacts .phone .phone__appeal {
     padding-left: 56px;
     padding-right: 21px;

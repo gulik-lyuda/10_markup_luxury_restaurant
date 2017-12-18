@@ -46,6 +46,20 @@
 				color: $white_color;
 				}
 			}
+
+			&:before {
+				width: 40px;
+				height: 40px;
+				display: block;
+				position: absolute;
+				margin-top: -10px;
+				margin-left: -3px;
+
+				content: " ";
+				border: 1px solid $white-color;
+				border-radius: 50%;
+				z-index: 10;
+			}
 		} // end of .reviews__btn
 	} // end of .reviews
 
